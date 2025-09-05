@@ -8,30 +8,20 @@ This project demonstrates the implementation of a Hidden Markov Model (HMM) for 
 
 ## Project Overview
 
-- **Objective**: Develop an HMM-based POS tagger to assign grammatical categories (such as noun, verb, adjective) to each word in a given text.
-- **Dataset**: Utilizes a corpus with a universal tagset for training and evaluation.
-- **Model**: Implements a Hidden Markov Model using the Pomegranate library.
-- **Accuracy**: Achieves over 96% tag accuracy with a universal tagset on realistic text corpora.
+- **`Objective`**: Develop an HMM-based POS tagger to assign grammatical categories (such as noun, verb, adjective) to each word in a given text.
+- **`Dataset`**: Utilizes a corpus with a universal tagset for training and evaluation.
+- **`Model`**: Implements a Hidden Markov Model using the Pomegranate library.
+- **`Accuracy`**: Achieves over 96% tag accuracy with a universal tagset on realistic text corpora.
 
 ---
 
 ## Repository Structure
 
-- **HMM_Tagger.ipynb** — Jupyter notebook containing the implementation of the HMM-based POS tagger.
-- **HMM warmup (optional).ipynb** — Optional notebook for understanding the basics of HMMs.
-- **helpers.py** — Helper functions used in the implementation.
-- **tags-universal.txt** — File containing the universal tagset used for POS tagging.
-- **README.md** — This file.
-
----
-
-## Getting Started
-
-### Prerequisites
-
-Ensure you have the following libraries installed:
-
-`pip install pomegranate`
+- **`HMM_Tagger.ipynb`** — Jupyter notebook containing the implementation of the HMM-based POS tagger.
+- **`HMM warmup (optional).ipynb`** — Optional notebook for understanding the basics of HMMs.
+- **`helpers.py`** — Helper functions used in the implementation.
+- **`tags-universal.txt`** — File containing the universal tagset used for POS tagging.
+- **`README.md`** — This file.
 
 ---
 
